@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botão {
+    display: flex;
+    text-decoration: none;
+    width: 200px;
+    height: 80px;
+    background: rgb(46,2,189);
+    background: linear-gradient(45deg, rgb(56, 9, 209) 0%, rgb(50, 2, 161));
+    color: #fff;
+    font-size: 35px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.botão:hover {
+    background: rgb(82, 35, 238);
+    background: linear-gradient(45deg, rgb(135, 62, 253) 0%, rgb(83, 47, 241) 100%);
+    
+}

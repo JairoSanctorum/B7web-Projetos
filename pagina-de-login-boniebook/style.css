@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+}
+h1 {
+    color: rgb(40, 40, 224);
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+#text {
+    flex: 1;
+    align-items: center;
+    
+    margin-left: 190px;
+}
+#text p {
+    width: 350px;
+}
+#login {
+    flex: 1;
+    align-items: center;
+}
+#login .pp {
+    width: 300px;
+}
+fieldset{
+    width: 250px;
+    background-color: white;
+}
+#email {
+    width: 100%;
+    padding: 4px 0px 4px 4px;
+    margin: 7px 0px;
+}
+#password {
+    width: 100%;
+    padding: 4px 0px 4px 4px;
+    margin: 7px 0px;
+}
+#button-1 {
+    width: 100%;
+    padding: 4px 0px 4px 4px;
+    margin: 7px 0px;
+    color: white;
+    background-color: rgb(40, 40, 224);
+    border-radius: 3px;
+}
+#button-2 {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: rgb(12, 236, 12);
+    border-radius: 3px;
+    
+}
+#login .p a {
+    text-decoration: none;
+}
+#login .p {
+    text-align: center;
+}
+#login .pp a {
+    text-decoration: none;
+    color: rgb(40, 40, 224);
+}
+
+
+
+
+

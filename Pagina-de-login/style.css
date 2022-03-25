@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+}
+header h1 {
+    text-align: center;
+}
+#container {
+    border: 3px solid rgb(236, 27, 184);
+    border-radius: 15px;
+    width: 400px;
+    display: block;             /*alinha uma imagem ou objeto no centro da página*/
+    margin-left: auto;          /*alinha uma imagem ou objeto no centro da página*/
+    margin-right: auto;
+
+    
+}
+#email {
+    border-radius: 10px;
+}
+#senha {
+    border-radius: 10px;
+}
+#dados-principal {
+    text-align: center;
+}
+#dados-enviar {
+    text-align: center;
+}
+#button {
+    display: block;             /*alinha uma imagem ou objeto no centro da página*/
+    margin-left: auto;          /*alinha uma imagem ou objeto no centro da página*/
+    margin-right: auto; 
+    margin-top: 20px;
+    color: rgb(236, 27, 184);
+    font-weight: bold;
+    font-size: 12pt;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: blueviolet;
+
+}
+#button:hover {
+    color: white;
+    background-color: rgb(236, 27, 184);
+}
+.txte {
+    text-align: center;
+}
